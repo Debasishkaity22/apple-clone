@@ -192,7 +192,8 @@ nav {}
     height: 717px;
 
 }
-.hero2{
+
+.hero2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -201,35 +202,40 @@ nav {}
     background-color: black;
     margin: 30px 10px;
 }
-.hero-para2{
+
+.hero-para2 {
     background: url(./image/figure-iphone2.png), lightgray 50% / contain no-repeat;
     width: 100px;
     height: 21px;
 
 }
-.gradient-text2{
+
+.gradient-text2 {
     text-align: center;
-font-family: SF Pro Display;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: 52.008px; 
-letter-spacing: -0.144px;
-background: linear-gradient(180deg, #FFB6FF 0%, #B344FF 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px;
+    letter-spacing: -0.144px;
+    background: linear-gradient(180deg, #FFB6FF 0%, #B344FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.p-c{
+
+.p-c {
     color: #F5F5F7 !important;
 }
-.hero-img2{
+
+.hero-img2 {
     background: url(./image/figure2.png), lightgray 50% / contain no-repeat;
     width: 782px;
     height: 540px;
 
 }
-.hero3{
+
+.hero3 {
     background: #FBFBFD;
     display: flex;
     flex-direction: row;
@@ -237,59 +243,382 @@ background-clip: text;
     align-items: center;
     gap: 10px;
 }
-.hero-para3{
+
+.hero-para3 {
     background: url(./image/figure-iphone3.png), lightgray 50% / contain no-repeat;
     width: 100px;
     height: 21px;
 
 }
-.gradient-text3{
+
+.gradient-text3 {
     text-align: center;
-font-family: SF Pro Display;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: 52.008px; 
-letter-spacing: -0.144px;
-background: linear-gradient(90deg, #1E3791 0%, #2948B1 40%, #3153C6 55%, #385FDA 60%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px;
+    letter-spacing: -0.144px;
+    background: linear-gradient(90deg, #1E3791 0%, #2948B1 40%, #3153C6 55%, #385FDA 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 .hero-img3 {
     background: url(./image/figure3.png), lightgray 50% / contain no-repeat;
     width: 490px;
     height: 830px;
 
 }
+
 /* image section */
-.image-section{
+.image-section {
     background: url(./image/figure4.png), lightgray 50% / contain no-repeat;
     width: 100vw;
-    height:700px;
+    height: 700px;
     padding: 270px 176px;
     margin: 30px;
 }
-.image-text{
+
+.image-text {
     flex-direction: column !important;
     margin: 30px;
     gap: 20px;
 
 }
-.image-text2{
+
+.image-text2 {
     color: #FFF;
-font-family: SF Pro Display;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 28px; 
-letter-spacing: 0.216px;
+    font-family: SF Pro Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.216px;
 }
-.image-head{
+
+.image-head {
     color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px;
+    letter-spacing: -0.144px;
+}
+
+.image-btn {
+    padding: 8px 15.6px 8px 16px;
+    border-radius: 980px;
+    background: #FFF;
+    color: #000;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.374px;
+}
+
+/* card section */
+.card-section {}
+
+.container3 {
+    margin: 100px 30px 100px 30px;
+    flex-direction: column;
+    padding: 10px;
+    height: 1900px;
+
+}
+
+.container-text {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px;
+    letter-spacing: -0.144px;
+}
+
+.card-container {
+    margin: 10px;
+    height: 1850px;
+}
+
+.card-container,
+.card,
+.card-img,
+.card-text,
+.card-text-1 {
+    flex-direction: column;
+
+}
+
+.my-card-main-container {
+    height: 1850px;
+}
+
+.my-card {
+    flex-direction: column;
+    width: 210px;
+    height: 480px;
+}
+
+.card-img {
+    height: 220px;
+}
+
+.card-img1 {
+    width: 190px;
+    height: 260px;
+}
+
+.card-img2 {
+    width: 68px;
+    height: 14px;
+    text-align: center;
+}
+
+.card-text {
+    height: 190px;
+}
+
+.card-text-1 {
+    height: 120px;
+}
+
+.card-text-2-img {
+    /* background: url(./image/figure-iphone2.png), lightgray 50% / contain no-repeat; */
+    width: 136px;
+    height: 20px;
+    text-align: center;
+}
+
+.card-text-3 {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.374px;
+}
+
+.card-text2-1 {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.224px;
+}
+
+.my-border {
+    /* width: 210px;
+    height: 1px;
+    background-color: #D2D2D7;; */
+    border-bottom: 1px solid #d2d2d7;
+
+}
+
+.feature1 {
+    flex-direction: column;
+    width: 210px;
+    height: 110px;
+}
+
+.feature1-text {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Text;
+}
+
+.feature1-text1 {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.374px;
+}
+
+.feature1-text2 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.224px;
+}
+
+.feature2-1 {
+    height: 50px;
+    flex-direction: column;
+}
+
+.feature2-img {
+    width: 36px;
+    height: 36px;
+}
+
+.feature2-text2-2 {
+    color: #6E6E73;
+    text-align: start;
+    font-family: SF Pro Text;
+}
+
+.feature3-img {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.feature4-img {
+    width: 36px;
+    height: 36px;
+}
+
+.feature4-1 {
+    flex-direction: column;
+}
+
+.padding-text {
+    padding: 2px 9px;
+}
+
+.feature3-text4-3 {
+    text-align: center !important;
+}
+
+.feature4 {
+    flex-direction: column;
+    width: 210px;
+    height: 190px;
+}
+
+.feature5 {
+    flex-direction: column;
+    width: 210px;
+    height: 70px;
+}
+
+.feature5-1 {
+    flex-direction: column;
+}
+
+.feature5-img {
+    width: 43px;
+    height: 22px;
+}
+
+.feature6 {
+    flex-direction: column !important;
+    gap: 10px;
+    width: 210px;
+    height: 80px;
+}
+
+.card-bottom {
+    width: 100vw;
+    height: 32px;
+    margin-top: 10px;
+    gap: 40px;
+}
+
+.card-bottom>a {
+    text-decoration: none;
+    color: #06C;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    letter-spacing: 0.231px;
+}
+/* give wow section */
+.give-wow{
+
+}
+.give-wow-container{
+    width: 85vw;
+    height: 575px;
+    padding: 10px;
+    background-color: #01012A;
+}
+.give-wow-img{
+    width:4ovw;
+    height:550px;
+}
+.give-wow-text{
+    flex-direction: column;
+    width:40vw;
+    height: 550px;
+}
+.give-wow-text1{
+    color: #FFF;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.009px; 
+    letter-spacing: -0.27px;
+}
+.give-wow-text2{
+    color: #2997FF;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; 
+letter-spacing: 0.231px;
+}
+/* way to buy iphone section */
+.Ways-to-Buy-iPhone{
+  margin-top: 10px;
+  width:95vw;
+  /* height: 1200px; */
+  flex-direction: column;
+}
+.way-buy-text{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -0.28px;
+}
+
+.way-to-card{
+    flex-direction: column;
+   
+}
+.way-buy-card1{
+    flex-direction: column;
+    width:42vw;
+    /* height: 1000px; */
+    background-color: #fff;
+    padding: 0px 60px;
+    box-shadow: 5px 5px 3px #fff;
+}
+.way-buy-card1-text{
+    flex-direction: column;
+}
+.way-buy-card-text1{
+    color: #1D1D1F;
+text-align: center;
 font-family: SF Pro Display;
 font-size: 48px;
 font-style: normal;
@@ -297,20 +626,36 @@ font-weight: 700;
 line-height: 52.008px; 
 letter-spacing: -0.144px;
 }
-.image-btn{
-    padding: 8px 15.6px 8px 16px;
-    border-radius: 980px;
-background: #FFF;
-color: #000;
+.way-buy-card-text2{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    letter-spacing: 0.231px;
+}
+.way-buy-card-text3{
+    color: #06C;
 text-align: center;
-font-family: SF Pro Text;
-font-size: 17px;
+font-family: SF Pro Display;
+font-size: 21px;
 font-style: normal;
 font-weight: 400;
-line-height: 20px; 
-letter-spacing: -0.374px;
+line-height: 29.001px;
+letter-spacing: 0.231px;
 }
-
+.way-buy-card1-img{
+    width: 302px;
+    height: 350px;
+}
+.way-to-bottom-img{
+    width: 90vw;
+    height: 200px;
+    background-repeat: repeat;
+    text-align: center;
+}
 @media screen and (max-width: 990px) {
 
     /* header section */
