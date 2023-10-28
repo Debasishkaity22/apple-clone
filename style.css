@@ -9,6 +9,7 @@ header {
     top: 0px;
     z-index: 15;
     background-color: #fff;
+   
 }
 
 /* navbar */
@@ -22,6 +23,7 @@ nav {}
     width: 100vw;
     height: 45px;
     margin-bottom: 6px;
+    
 }
 
 
@@ -277,10 +279,14 @@ nav {}
 
 /* image section */
 .image-section {
-    background: url(./image/figure4.png), lightgray 50% / contain no-repeat;
+    /* background: url(./image/figure4.png), lightgray 50% / contain no-repeat; */
+    background-image: url(./image/figure4.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 700px;
     width: 100vw;
     height: 700px;
     padding: 270px 176px;
+  
     margin: 30px;
 }
 
@@ -544,89 +550,204 @@ nav {}
     line-height: 29.001px;
     letter-spacing: 0.231px;
 }
-/* give wow section */
-.give-wow{
 
+/* give wow section */
+.give-wow {
+    background: #F2F2F2;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
-.give-wow-container{
-    width: 85vw;
+
+.give-wow-container {
+    width: 1020px;
     height: 575px;
     padding: 10px;
     background-color: #01012A;
 }
-.give-wow-img{
-    width:4ovw;
-    height:550px;
-}
-.give-wow-text{
-    flex-direction: column;
-    width:40vw;
+
+.give-wow-img {
+    width: 4ovw;
     height: 550px;
 }
-.give-wow-text1{
+
+.give-wow-text {
+    flex-direction: column;
+    width: 40vw;
+    height: 550px;
+}
+
+.give-wow-text1 {
     color: #FFF;
     text-align: center;
     font-family: SF Pro Display;
     font-size: 90px;
     font-style: normal;
     font-weight: 700;
-    line-height: 100.009px; 
+    line-height: 100.009px;
     letter-spacing: -0.27px;
 }
-.give-wow-text2{
+
+.give-wow-text2 {
     color: #2997FF;
-text-align: center;
-font-family: SF Pro Display;
-font-size: 21px;
-font-style: normal;
-font-weight: 400;
-line-height: 29.001px; 
-letter-spacing: 0.231px;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    letter-spacing: 0.231px;
 }
+
 /* way to buy iphone section */
-.Ways-to-Buy-iPhone{
-  margin-top: 10px;
-  width:95vw;
-  /* height: 1200px; */
-  flex-direction: column;
+.Ways-to-Buy-iPhone {
+    
+    width: 100vw;
+    /* height: 1200px; */
+    flex-direction: column;
+    gap: 15px;
+    background: #F2F2F2;
 }
-.way-buy-text{
+.way-to-buy-container{
+    flex-direction: column;
+    gap: 20px;
+    width: 1030px;
+}
+.way-to-buy-card {
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+    /* width: 100vw; */
+    /* margin: 30px 10px; */
+}
+
+.way-to-buy-card-text {
+    flex-direction: column;
+}
+
+.way-to-buy-card-text1 {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.216px;
+}
+
+.way-to-buy-card-text2 {
+    width: 650px;
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px;
+    letter-spacing: -0.144px;
+}
+
+.way-to-buy-card-text-img {
+    width: 110px;
+    height: 60px;
+}
+
+.way-buy-card-text6 {
+    color: #6E6E73;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    /* 138.1% */
+    letter-spacing: 0.231px;
+}
+
+.card-text-width {
+    width: 190px;
+    gap: 30px;
+    margin: 10px;
+}
+
+.way-to-buy-card-find-deal {
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.find-your-deal {
+    border-radius: 980px;
+    background: #0071E3;
+    color: #FFF;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.374px;
+    width: 162px;
+    height: 56px;
+    padding: 18px 30.6px 18px 31px;
+}
+
+.find-your-deal-text {
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.374px;
+}
+
+.find-your-deal-text-col {
+    color: #06C !important;
+}
+
+.way-buy-text {
     color: #1D1D1F;
     text-align: center;
     font-family: SF Pro Display;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px; 
+    line-height: 60px;
     letter-spacing: -0.28px;
 }
-
-.way-to-card{
-    flex-direction: column;
-   
+.way-to-buy-middle{
+    gap: 20px;
 }
-.way-buy-card1{
+.way-to-card {
     flex-direction: column;
-    width:42vw;
+    width: 500px;
+
+}
+
+.way-buy-card1 {
+    flex-direction: column;
+    /* width: 42vw; */
     /* height: 1000px; */
     background-color: #fff;
-    padding: 0px 60px;
-    box-shadow: 5px 5px 3px #fff;
+  
 }
-.way-buy-card1-text{
+
+.way-buy-card1-text {
     flex-direction: column;
 }
-.way-buy-card-text1{
+
+.way-buy-card-text1 {
     color: #1D1D1F;
-text-align: center;
-font-family: SF Pro Display;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: 52.008px; 
-letter-spacing: -0.144px;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px;
+    letter-spacing: -0.144px;
 }
-.way-buy-card-text2{
+
+.way-buy-card-text2 {
     color: #1D1D1F;
     text-align: center;
     font-family: SF Pro Display;
@@ -636,27 +757,390 @@ letter-spacing: -0.144px;
     line-height: 29.001px;
     letter-spacing: 0.231px;
 }
-.way-buy-card-text3{
+
+.way-buy-card-text3 {
     color: #06C;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    letter-spacing: 0.231px;
+}
+
+.way-buy-card1-img {
+    margin: 15px 0px;
+    width: 500px;
+    height: 350px;
+    text-align: center;
+}
+
+.way-to-bottom-img {
+    width: 90vw;
+    height: 560px;
+    background-repeat: repeat;
+    text-align: center;
+}
+/* feature accessories */
+.feature-accessories {
+    margin: 20px;
+    gap: 30px;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    background: #F2F2F2;
+}
+.feature-accessories-container{
+    flex-direction: column;
+    gap:20px;
+}
+.feature-accessories-card {
+    gap: 55px;
+    width: 100vw;
+    background-color: #fff;
+}
+
+.feature-accessories-card-text1 {
+    width: 288px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feature-accessories-img1 {
+    width: 42vw;
+    height: 463px;
+}
+
+.feature-accessories-img1>img {
+    width: 41vw;
+    height: 430px;
+}
+
+.feature-accessories-card3 {
+    flex-direction: column;
+    gap: 55px;
+    width: 100vw;
+    background-color: #fff;
+}
+.features{
+   gap: 20px; 
+   width: 100vw;
+   background: #F2F2F2;
+}
+.feature-1{
+flex-direction: column;
+gap: 10px;
+width: 290px;
+}
+/* makes an iphone section */
+.makes-an-iphone{
+    flex-direction: column;
+    padding: 30px;
+    gap: 45px;
+    background: #F2F2F2;
+    width: 100vw;
+}
+.makes-an-iphone-card{
+    flex-direction: column;
+    gap: 20px;
+    width: 430px;
+    background-color: #fff;
+}
+.makes-an-iphone-card-img>img{
+    width: 420px;
+}
+/* get-more section */
+.get-more-container{
+    flex-direction: column;
+    gap:20px;
+    width: 100vw;
+}
+.container1{
+    background-color: #fff;
+    width: 1020px;
+    
+}
+.container-img1>img{
+width:400px;
+height: 300px;
+}
+.container-1-2{
+  width: 350px;
+  flex-direction: column;
+  gap: 10px;
+}
+.container-1-list{
+    list-style-type:none;
+    gap: 20px;
+}
+.container-2{
+    gap: 20px;
+}
+.get-more-container-card{
+    /* gap: 12px; */
+    width: 500px;
+    height: 475px;
+    background-color: #090A0E;
+    flex-direction: column;
+    
+}
+.get-more-container-card-text{
+    flex-direction: column;
+    gap: 10px;
+    height: 230px;
+}
+.get-more-container-card-text1{
+    width:285px;
+    color: #F5F5F7;
+}
+.get-more-container-card-bottom{
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:start;
+    width: 500px;
+    height: 245px;
+}
+.card-bottom-top{
+    width: 97%;
+    justify-content: end !important;
+}
+.get-more-container-card-bottom-mid{
+    display: inline-flex;
+/* height: 148px; */
+justify-content: start;
+align-items:start;
+width: 100% !important;
+}
+.bottom-mid-ul{
+    white-space: nowrap;
+    overflow-x: scroll;
+    width: 100%;
+    gap: 12px;
+    margin-inline: 4px;
+    padding-inline: 8px;
+   
+}
+.bottom-mid-ul>ul>li{
+    width: 135px;
+    height: 56px;
+    list-style-type:none;    
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+.get-more-container-card2{
+    width: 500px;
+    height: 475px;
+    background-color:#fff;
+    flex-direction: column;
+}
+.get-more-container-card-text2{
+    color: #1D1D1F;
 text-align: center;
 font-family: SF Pro Display;
 font-size: 21px;
 font-style: normal;
 font-weight: 400;
-line-height: 29.001px;
+line-height: 29.001px; /* 138.1% */
 letter-spacing: 0.231px;
 }
-.way-buy-card1-img{
-    width: 302px;
-    height: 350px;
+.get-more-container2-card-bottom-img{
+justify-self:left;
+align-self: flex-start;
+overflow-x: scroll;
+width: 450px;
+padding: 10px;
+gap: 10px;
 }
-.way-to-bottom-img{
-    width: 90vw;
+.get-more-container2-card-bottom-img>img:nth-child(odd){
+    margin-top: 20px;
+}
+.container-3,.container-4{
+    gap:20px;
+}
+.container-3-img1{
+    background-image: url(./image/container3-img1.png);
+    background-repeat: no-repeat;
+    background-size: 500px 475px;
+    background-color: #FA3454;
+}
+.container-3-img2{
+    background-image: url(./image/container-3-img2.png);
+    background-repeat: no-repeat;
+    background-size: 500px 475px;
+    background-color: #fff;
+}
+.container-4-bot-img1{
+     background-image: url(./image/container-4-bot-img1.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size:400px 200px;
+    width: 400px;
     height: 200px;
-    background-repeat: repeat;
-    text-align: center;
+ 
+
 }
-@media screen and (max-width: 990px) {
+.container-4-bot-img2{
+    background-image: url(./image/container-4-bot-img2.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: 500px 240px;
+    width: 500px;
+    height: 300px;
+    
+}
+.container-5{
+    background-color: #fff;
+    gap: 50px;
+    width: 1020px;
+    height:340px;
+}
+.container-5-img2{
+     background-image: url(./image/container-5-img2.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: 450px 300px;
+    width: 450px;
+    height: 300px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.container-5-text{
+    flex-direction: column;
+    gap:12px;
+}
+.container-5-text1{
+    width: 250.294px;
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+}
+.container-5-text2{
+    width: 307.754px;
+}
+/* footer */
+footer{
+    width: 100vw;
+    height: 570px;
+    background-color: #F5F5F7;
+    padding: 10px 30px 10px 30px;
+    flex-direction: column;
+    gap:30px;
+}
+.footer-border{
+    width: 1020px;
+    height: 1px;
+    background-color: #D2D2D7;
+}
+.apple-directory{
+    width:1020px;
+    align-items: flex-start;
+
+}
+.apple-directory1{
+    flex-direction: column;
+    gap:5px;
+}
+.apple-directory1>ul{
+    list-style-type: none;
+    flex-direction: column;
+    gap: 5px;
+    color: #424245;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+margin: 0px;
+padding: 0px;
+}
+.apple-directory1-text{
+    color: #1D1D1F;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px; /* 133.337% */
+letter-spacing: -0.12px;
+}
+.apple-directory2{
+    flex-direction: column;
+    gap:20px;
+}
+.footer-bottom{
+    width: 1020px;
+    height: 90px;
+    flex-direction: column;
+    gap:10px;
+}
+.footer-bottom-top{
+    width: 1020px;
+    height: 14px;
+    font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+}
+.color1{
+    color: #6E6E73;
+    display: inline-block;
+}
+.color2{
+    color: #06C;
+    display: inline-block;
+}
+.footer-bottom-bot{
+    width: 1020px;
+    height: 26px;
+}
+.footer-bottom-bot-text1{
+    gap: 30px;
+}
+.footer-bottom-bot-text1-1{
+    color: #6E6E73;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.337% */
+}
+.footer-bottom-bot-text2{
+    color: #424245;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.337% */
+}
+.footer-bottom-bot-text1-end{
+  width:400px;
+  height: 21px;
+  gap: 10px;
+}
+.end1{
+    color: #424245;
+    font-family: SF Pro Text;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; 
+    display: inline-block;
+}
+.end2{
+width: 1px;
+height: 14px;
+background-color: #D2D2D7;
+display: inline-block;
+}
+@media screen and (max-width: 1024px) {
 
     /* header section */
     .nav-bar {
@@ -664,7 +1148,12 @@ letter-spacing: 0.231px;
         gap: 5px !important;
         width: 100vw !important;
     }
-
+    footer,.feature-accessories,.Ways-to-Buy-iPhone,.hero-section,.image-section{
+        transform: scaleX(.8);
+    }
+    .hero-img2,.hero-img3{
+        width:600px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -678,16 +1167,19 @@ letter-spacing: 0.231px;
 
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
 
     /* header section */
     .nav-bar {
-        transform: scale(.80) !important;
-        gap: 3px !important;
+        transform: scale(1) !important;
+        gap: 5px !important;
         width: 100vw !important;
     }
-
+   .header-banner{
+   transform: scaleX(.7);
+   }
     .nav-list>li>a {
         font-size: 10px;
     }
+   
 }
